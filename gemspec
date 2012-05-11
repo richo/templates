@@ -1,3 +1,5 @@
+# vim: ft=ruby
+
 Gem::Specification.new do |s|
   s.name        = "GEM_NAME"
   s.version     = "0.0.0"
@@ -18,4 +20,3 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
 end
 
-# vim: ft=ruby
