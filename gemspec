@@ -5,7 +5,7 @@ Gem::Specification.new do |s|
   s.version     = "0.0.0"
   s.authors     = ["Rich Healey"]
   s.email       = ["richo@psych0tik.net"]
-  s.homepage    = "http://github.com/richoH/GEM_NAME"
+  s.homepage    = "http://github.com/richo/GEM_NAME"
   s.summary     = "description"
   s.description = s.summary
 
