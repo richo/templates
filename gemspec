@@ -19,5 +19,10 @@ Gem::Specification.new do |s|
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
   s.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
   s.require_paths = ["lib"]
+
+  if ENV['GEM_PRIVATE_KEY']
+    s.signing_key = "#{ENV['GEM_PRIVATE_KEY']}/gem-private_key.pem"
+    s.cert_chain  = ['gem-public_cert.pem']
+  end
 end
 
