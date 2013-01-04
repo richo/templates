@@ -3,7 +3,7 @@
 Gem::Specification.new do |s|
   s.name        = "GEM_NAME"
   s.version     = "0.0.0"
-  s.authors     = ["Rich Healey"]
+  s.authors     = ["Richo Healey"]
   s.email       = ["richo@psych0tik.net"]
   s.homepage    = "http://github.com/richo/GEM_NAME"
   s.summary     = "description"
