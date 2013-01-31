@@ -22,7 +22,7 @@ Gem::Specification.new do |s|
 
   if ENV['GEM_PRIVATE_KEY']
     s.signing_key = "#{ENV['GEM_PRIVATE_KEY']}/gem-private_key.pem"
-    s.cert_chain  = ['gem-public_cert.pem']
+    s.cert_chain  = ["#{ENV['GEM_PRIVATE_KEY']}/gem-public_cert.pem"]
   end
 end
 
